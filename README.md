@@ -78,7 +78,3 @@ In rural India, **80% of farmers** are small or marginal landholders who cannot 
 - **Nodemon** - Development server
 - **dotenv** - Environment management
 
-## 🚀 Getting Started
-
-### Prerequisites
-```bash
