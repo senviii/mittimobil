@@ -1,150 +1,84 @@
-\# 🚜 MittiMobil - Agricultural Equipment Rental Platform
+# 🚜 MittiMobil - Agricultural Equipment Rental Platform
 
+**Imagine Cup 2026 Submission - Team Devtrail**
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js](https://img.shields.io/badge/Node.js-16+-green.svg)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18+-blue.svg)](https://reactjs.org/)
 
-\*\*Imagine Cup 2026 Submission - Team Devtrail\*\*
+## 🌾 Problem Statement
 
+In rural India, **80% of farmers** are small or marginal landholders who cannot afford expensive agricultural equipment. This leads to:
+- 📉 Lower crop yields and productivity
+- 💸 Increased operational costs through traditional rental methods
+- ⏰ Time wasted searching for available equipment
+- 🚫 Limited access to modern farming tools
 
+**MittiMobil** solves this by creating an **AI-powered marketplace** that connects equipment owners with farmers who need them, democratizing access to agricultural tools and increasing rural incomes.
 
-\## 🌾 Problem Statement
+## 🎯 Target Audience
 
-Small farmers in rural India cannot afford expensive agricultural equipment, limiting productivity and income. MittiMobil connects equipment owners with renters through an AI-powered marketplace, democratizing access to farming tools.
+- **Primary**: Small and marginal farmers (2-5 hectare landholdings) who need affordable equipment access
+- **Secondary**: Equipment owners looking to monetize idle machinery
+- **Geographic Focus**: Rural communities across India, starting with Maharashtra and Tamil Nadu
 
+## ✨ Key Features
 
+### 🤖 AI-Powered Equipment Verification
+- **Microsoft Azure Computer Vision** automatically validates equipment photos
+- Detects equipment type, condition, and authenticity
+- Reduces fraud and ensures quality listings
 
-\## 🎯 Target Audience
+### 📍 Smart Location-Based Search
+- Find equipment within your panchayat or district
+- Distance-based pricing calculations
+- Real-time availability tracking
 
-\- Small and marginal farmers who cannot afford equipment
+### ⚡ Instant Booking System
+- Real-time rental confirmations
+- Flexible hourly and daily rates
+- Automated booking management
 
-\- Equipment owners looking to monetize idle machinery
+### 💰 Transparent Pricing
+- Clear per-hour and per-day rates
+- No hidden charges
+- Competitive marketplace pricing
 
-\- Rural communities across India
+### 🌐 Inclusive Design
+- Multi-language support (Hindi & English)
+- Voice-guided navigation (coming soon)
+- Designed for low-literacy users with visual icons
 
+### 📊 Analytics Dashboard
+- Track equipment utilization
+- Revenue analytics for owners
+- Booking history and reports
 
+## 🛠️ Technology Stack
 
-\## ✨ Key Features
+### Frontend
+- **React.js 18** - Modern UI framework
+- **React Router** - Client-side routing
+- **Axios** - HTTP client
+- **CSS3** - Responsive design
 
-\- \*\*🤖 AI-Powered Verification\*\*: Microsoft Azure Computer Vision validates equipment photos
+### Backend
+- **Node.js & Express.js** - Server framework
+- **MongoDB** - NoSQL database
+- **Mongoose** - ODM for MongoDB
+- **JWT** - Secure authentication
 
-\- \*\*📍 Location-Based Search\*\*: Find equipment near your farm
+### AI & Cloud Services
+- **Microsoft Azure Computer Vision API** - Equipment verification
+- **Azure Blob Storage** - Image storage (planned)
+- **Google Maps API** - Location services
 
-\- \*\*⚡ Real-time Booking\*\*: Instant rental confirmations
+### DevOps
+- **Git & GitHub** - Version control
+- **Nodemon** - Development server
+- **dotenv** - Environment management
 
-\- \*\*💰 Transparent Pricing\*\*: Hourly and daily rates
+## 🚀 Getting Started
 
-\- \*\*🌐 Multi-language Support\*\*: Hindi and English interfaces
-
-
-
-\## 🛠️ Technology Stack
-
-\- \*\*Frontend\*\*: React.js
-
-\- \*\*Backend\*\*: Node.js, Express.js
-
-\- \*\*Database\*\*: MongoDB
-
-\- \*\*AI\*\*: Microsoft Azure Computer Vision API
-
-\- \*\*Authentication\*\*: JWT
-
-
-
-\## 🚀 Getting Started
-
-
-
-\### Prerequisites
-
-\- Node.js 16+
-
-\- MongoDB
-
-\- Azure Computer Vision API key
-
-
-
-\### Installation
-
-
-
-1\. Clone the repository
-
+### Prerequisites
 ```bash
-
-git clone https://github.com/YOUR\_USERNAME/mittimobil.git
-
-cd mittimobil
-
-```
-
-
-
-2\. Install dependencies
-
-```bash
-
-npm install
-
-cd client
-
-npm install
-
-```
-
-
-
-3\. Create `.env` file in root directory
-
-```env
-
-MONGODB\_URI=mongodb+srv://sm9511\_db\_user:mittiMobil@fswd.2ocb6le.mongodb.net/mittimobil?retryWrites=true\&w=majority
-
-JWT\_SECRET=mittimobil\_secret\_key\_2024
-
-AZURE\_VISION\_KEY=78qVmunfEGotO8FJsJecmVrJaDDZIO8ELUmq6gYM69TFIrcNSWJ2JQQJ99BLACqBBLyXJ3w3AAAFACOGgg3EAZURE\_VISION\_ENDPOINT=https://mittimobilresources.cognitiveservices.azure.com/
-
-
-
-PORT=5000
-
-```
-
-
-
-4\. Run the application
-
-```bash
-
-\# Terminal 1 - Run server
-
-npm start
-
-
-
-\# Terminal 2 - Run client
-
-cd client
-
-npm start
-
-```
-
-
-
-\## 👥 Team Devtrail
-
-Full Stack Development Team
-
-
-
-\## 🏆 Imagine Cup 2026
-
-Microsoft Imagine Cup 2026 - Retail \& Consumer Goods Category
-
-
-
-\## 📄 License
-
-MIT License
-
