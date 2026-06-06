@@ -152,7 +152,8 @@ npm run dev
 ## 📱 Application Screenshots
 
 ### 🏠 Home Page
-*Browse available equipment with smart filters*
+<img width="792" height="667" alt="Screenshot 2025-12-07 212047" src="https://github.com/user-attachments/assets/64a2c366-ad28-4025-a1b7-79e5472a57c9" />
+
 
 ### 📋 Equipment Listing
 *AI-verified equipment with detailed specifications*
