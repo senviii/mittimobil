@@ -152,17 +152,21 @@ npm run dev
 ## 📱 Application Screenshots
 
 ### 🏠 Home Page
-<img width="792" height="667" alt="Screenshot 2025-12-07 212047" src="https://github.com/user-attachments/assets/64a2c366-ad28-4025-a1b7-79e5472a57c9" />
+<img width="1851" height="1142" alt="Screenshot 2025-12-21 002146" src="https://github.com/user-attachments/assets/aa6fc1e6-d27f-426a-8bbc-8f6705a7f1d4" />
+
 
 
 ### 📋 Equipment Listing
-*AI-verified equipment with detailed specifications*
+<img width="813" height="1106" alt="Screenshot 2025-12-14 192518" src="https://github.com/user-attachments/assets/f4c3fec3-9563-4819-9f76-fc1f9096c955" />
+
 
 ### 📅 Booking Interface
-*Simple, intuitive booking process*
+<img width="1168" height="935" alt="Screenshot 2025-12-22 154333" src="https://github.com/user-attachments/assets/fd77dd84-cd66-45ff-ae61-6b14d752cb2f" />
+
 
 ### 📊 Owner Dashboard
-*Track your equipment and earnings*
+<img width="1609" height="1149" alt="Screenshot 2025-12-22 154032" src="https://github.com/user-attachments/assets/1cb64771-16c7-4163-ae23-1853ab1f5a9e" />
+
 
 
 ## 🏗️ Project Structure
